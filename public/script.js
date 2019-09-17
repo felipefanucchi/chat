@@ -10,7 +10,7 @@ const author = (() => {
     return result;
 })();
 
-const renderMessage = (message, isMe) => {
+const renderMessage = (message) => {
     document.querySelector('.messages').insertAdjacentHTML('beforeend', `
         <p><strong>${message.author}</strong>: ${message.message}</p>
     `)
