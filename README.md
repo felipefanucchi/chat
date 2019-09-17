@@ -1,5 +1,5 @@
 yarn install || npm install
 
-node serve.js 
+node server.js 
 
 have fun!
